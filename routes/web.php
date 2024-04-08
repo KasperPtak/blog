@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// alt way of calling view.
+// Route::view('/','homepage');
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage');
 });
