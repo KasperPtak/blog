@@ -1,7 +1,7 @@
 # blog
-This is a Laravel project for managing posts. It allows users to create, view, update, and delete posts.
+This is a Laravel project for managing posts. It allows users to create, view and delete posts.
 
-## Prerequisites
+### Prerequisites
 
 Before running the project, ensure you have the following installed on your local machine:
 
@@ -11,7 +11,7 @@ Before running the project, ensure you have the following installed on your loca
 - [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (for managing frontend dependencies)
 - [MySQL](https://www.mysql.com/)
 
-## Installation
+### Installation
 
 1. Clone the repository
 
@@ -63,7 +63,7 @@ npm install
  yarn install
  ```
 
-## Usage
+### Usage
 
 run the laravel app:
 ```
