@@ -33,19 +33,19 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-5. generate an APP_KEY in your .env file
+5. generate an APP_KEY in your .env file:
 
 ```php artisan key:generate```
 
-6. Run migrations to create tables
+6. Run migrations to create tables:
 
 ```php artisan migrate```
 
-7. Seed database with sample data (optional)
+7. Seed database with sample data (optional):
 
 ```php artisan db:seed```
 
-8. Install frontend dependencies (necessary for tailwind)
+8. Install frontend dependencies (necessary for tailwind):
 
 ```npm install```
  or 
