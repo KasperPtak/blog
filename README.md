@@ -15,25 +15,33 @@ Before running the project, ensure you have the following installed on your loca
 
 1. Clone the repository:
 
-2. ```cd blog``` 
+2. cd into the app
+```cd blog``` 
 
-3. ```composer install```
+3. Install composer dependencies
+```composer install```
 
 4. Copy or rename .env.example to .env and update the database according to your environment
+```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
+```
 
-5. ```php artisan key:generate```
+5. generate an APP_KEY in your .env file
+```php artisan key:generate```
 
-6. ```php artisan migrate```
+6. Run migrations to create tables
+```php artisan migrate```
 
-7. ```php artisan db:seed```
+7. Seed database with sample data (optional)
+```php artisan db:seed```
 
-8. ```npm install``` or ```yarn install```
+8. Install frontend dependencies (necessary for tailwind)
+```npm install``` or ```yarn install```
 
 ## Usage
 
