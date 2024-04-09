@@ -16,9 +16,11 @@ Before running the project, ensure you have the following installed on your loca
 1. Clone the repository:
 
 2. cd into the app
+
 ```cd blog``` 
 
 3. Install composer dependencies
+
 ```composer install```
 
 4. Copy or rename .env.example to .env and update the database according to your environment
@@ -32,16 +34,22 @@ DB_PASSWORD=
 ```
 
 5. generate an APP_KEY in your .env file
+
 ```php artisan key:generate```
 
 6. Run migrations to create tables
+
 ```php artisan migrate```
 
 7. Seed database with sample data (optional)
+
 ```php artisan db:seed```
 
 8. Install frontend dependencies (necessary for tailwind)
-```npm install``` or ```yarn install```
+
+```npm install```
+ or 
+ ```yarn install```
 
 ## Usage
 
