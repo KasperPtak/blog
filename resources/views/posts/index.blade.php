@@ -24,7 +24,6 @@
             @endforeach
         </div>
 
-
         <div class="bg-gray-100 p-6 rounded-lg shadow-md mt-5">
             <h2 class="text-2xl font-bold mb-4">Create a New Post</h2>
             <form action="{{ route('posts.store') }}" method="POST">

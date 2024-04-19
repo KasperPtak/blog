@@ -27,6 +27,23 @@ class PostController extends Controller
             'content' => 'required',
         ]);
 
+        // TODO: pa
+        // $client = new Client();
+        // $response = $client->post('https://api.openai.com/v1/completions', [
+        //     'headers' => [
+        //         'Authorization' => 'Bearer TOKEN_IN_ENV',
+        //         'Content-Type' => 'application/json',
+        //     ],
+        //     'json' => [
+        //         'model' => 'gpt-3.5-turbo-0125', 
+        //         'prompt' => 'Testing a prompt here!',
+        //         'max_tokens' => 1000,
+        //     ],
+        // ]);
+        // // Extract the generated content from the API response
+        // $generatedContent = json_decode($response->getBody()->getContents(), true)['choices'][0]['text'];
+        // return response()->json($generatedContent);
+
         Post::create($validatedData);
 
         return redirect('/')->with('success', 'Post created successfully!');
